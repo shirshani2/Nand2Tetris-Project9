@@ -1,0 +1,29 @@
+class Random {
+    static int seed;
+    //Initializes the random number generator with a starting seed
+    function void init(int newSeed) {
+        let seed = newSeed;
+        return;
+    }
+
+    //Generates the next random number in the sequence.
+    function int rand() {
+        let seed = seed + 10000;
+        if (seed < 0) {
+            let seed = seed - 32767 - 1;
+        }
+        return seed;
+    }
+    
+    //Generates a random number within a specified range [min, max]
+    function int randRange(int min, int max) {
+        var int range;
+        var int randNum;
+        let range = max - min + 1;
+        let randNum = Random.rand();
+        if (randNum < 0) { 
+            let randNum = -randNum; 
+        }
+        return min + (randNum - ((randNum / range) * range));
+    }
+}

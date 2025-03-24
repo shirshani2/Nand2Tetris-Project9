@@ -1,0 +1,14 @@
+class Main {
+    function void main() {
+        var Game game;
+        do Random.init(12345);
+        let game = Game.new();
+        while (true) {
+            do game.run();
+            do game.dispose();
+
+        }
+
+        return;
+    }
+}
