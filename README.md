@@ -6,12 +6,9 @@ The project focuses on building basic operating system components written in **J
 I creat game designed to test players' reflexes and accuracy under time constraints
 
 ## 🛠️ Implemented Files:
-- `Math.jack`  
-- `Array.jack`  
-- `String.jack`  
-- `Output.jack`  
-- `Screen.jack`  
-- `Keyboard.jack`  
+- `Game.jack`  
+- `Random.jack`  
+- `Main.jack`    
 
 ## 📝 Description:
 In this project, I implemented several essential OS services in Jack, enabling higher-level programs to interact with hardware components.
