@@ -1,10 +1,9 @@
-# Nand2Tetris-Project9
-My implementation of Project 9 from Nand2Tetris course - game designed to test players' reflexes and accuracy under time constraints in Jack language
 
 # Nand2Tetris - Project 9
 
 This repository contains my solution for **Project 9** from the Nand2Tetris course.  
 The project focuses on building basic operating system components written in **Jack language**.
+I creat game designed to test players' reflexes and accuracy under time constraints
 
 ## 🛠️ Implemented Files:
 - `Math.jack`  
